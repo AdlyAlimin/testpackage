@@ -1,0 +1,25 @@
+{
+    "name": "pandagemuk/calculator",
+    "description": "test package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PandaGemuk",
+            "email": "adlyalimin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PandaGemuk\\Calculator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "PandaGemuk\\Calculator\\CalculatorServiceProvider"
+            ]
+        }
+    }
+}
